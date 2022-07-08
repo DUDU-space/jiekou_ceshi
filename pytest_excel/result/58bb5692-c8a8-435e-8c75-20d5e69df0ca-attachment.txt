@@ -1,0 +1,18 @@
+{'url': 'http://39.98.138.157:5000/api/login', 'json': {'username': 'admin', 'password': '123456'}}
+{
+  "adress": {
+    "city": "changsha"
+  }, 
+  "httpstatus": 200, 
+  "info": {
+    "age": 18, 
+    "name": "admin"
+  }, 
+  "msg": "success", 
+  "token": "23657DGYUSGD126731638712GE18271H"
+}
+
+============检查信息===========
+校验字段： $..msg
+预期结果： success
+实际结果： success
